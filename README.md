@@ -2,7 +2,7 @@
 
 Retro platinum-inspired look and feel package for KDE Plasma.
 
-![Preview screenshot](Platinum/contents/previews/fullscreenpreview.png)
+![Preview screenshot](org.nielsvm.platinum.desktop/contents/previews/fullscreenpreview.png)
 
 ### Dependencies
 This package automatically pulls in these dependencies upon installation:
