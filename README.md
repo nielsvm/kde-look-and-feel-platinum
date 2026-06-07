@@ -8,8 +8,12 @@ Retro platinum-inspired look and feel package for KDE Plasma.
 This package automatically pulls in these dependencies upon installation:
 
 * https://store.kde.org/p/1319936
+* https://store.kde.org/p/1852495
 * https://store.kde.org/p/1287747
-* https://store.kde.org/p/998701
+* https://store.kde.org/p/1731975/
+
+Install this mouse theme manually:
+* https://store.kde.org/p/1290398/
 
 ### Installation
 1. `System Settings`> `Look and Feel`
@@ -21,7 +25,7 @@ This package automatically pulls in these dependencies upon installation:
 
 If you want to go fully _classic_, here's some extra tips:
 
-1. Install the `qtcurve` widget style on your system and import the [QPlatinum preset](https://store.kde.org/p/1287743/):
+1. Install `kvantum` on your system, enable it and set it to the `Mac9KvantumClassic` [ theme](https://www.opendesktop.org/p/1840907/):
 ![QtCurve config dialog](./README-tip1.png)
 
 2. Disable inactive window dimming:

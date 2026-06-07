@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "niels@nielsvm.org",
+                "Name": "Niels"
+            }
+        ],
+        "Description": "Retro platinum-inspired look and feel package for KDE Plasma.",
+        "Id": "org.nielsvm.platinum.desktop",
+        "License": "GPL3",
+        "Name": "Platinum",
+        "Website": "https://github.com/nielsvm/kde-look-and-feel-platinum"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default",
+    "X-KPackage-Dependencies": [
+      "kns://aurorae.knsrc/api.kde-look.org/1319936",
+      "kns://icons.knsrc/api.kde-look.org/1852495",
+      "kns://colorschemes.knsrc/api.kde-look.org/1287747",
+      "kns://plasma-themes.knsrc/api.kde-look.org/1731975",
+      "kns://xcursor.knsrc/api.kde-look.org/1290398"
+    ]
+}

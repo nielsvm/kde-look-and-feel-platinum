@@ -1,11 +1,14 @@
 [kcminputrc][Mouse]
-cursorTheme=KDE_Classic
+cursorTheme=retrosmart-xcursor-black
 
 [kdeglobals][General]
-ColorScheme=QPlatinum
+ColorScheme=QPlatinum3
+
+[kdeglobals][Icons]
+Theme=SevenIcons
 
 [kdeglobals][KDE]
-widgetStyle=qtcurve
+widgetStyle=kvantum
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
@@ -14,8 +17,8 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
+library=org.kde.kwin.aurorae.v2
 theme=__aurorae__svg__Platinum
 
 [plasmarc][Theme]
-name=win-classic
+name=QPlatinum
