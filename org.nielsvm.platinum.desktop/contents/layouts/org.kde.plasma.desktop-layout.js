@@ -4,123 +4,21 @@ var layout = {
     "desktops": [
         {
             "applets": [
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "1",
-                    "wallpaperplugin": "org.kde.potd"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "360",
-                    "DialogWidth": "480"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
-                },
-                "/General": {
-                    "ToolBoxButtonState": "topleft",
-                    "showToolbox": "false"
-                },
-                "/Wallpaper/org.kde.potd/General": {
-                    "Provider": "flickr"
-                }
-            },
-            "wallpaperPlugin": "org.kde.potd"
-        },
-        {
-            "applets": [
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "2",
-                    "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "360",
-                    "DialogWidth": "480"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
-                },
-                "/General": {
-                    "showToolbox": "false"
-                }
-            },
-            "wallpaperPlugin": "org.kde.image"
-        },
-        {
-            "applets": [
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "3",
-                    "wallpaperplugin": "org.kde.potd"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "603",
-                    "DialogWidth": "852"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
-                },
-                "/General": {
-                    "ToolBoxButtonState": "topleft",
-                    "showToolbox": "false"
-                },
-                "/Wallpaper/org.kde.color/General": {
-                    "Color": "255,0,127"
-                },
-                "/Wallpaper/org.kde.potd/General": {
-                    "FillMode": "2",
-                    "Provider": "bing"
-                }
-            },
-            "wallpaperPlugin": "org.kde.potd"
-        },
-        {
-            "applets": [
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "5",
-                    "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "480",
-                    "DialogWidth": "640"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "2"
-                },
-                "/General": {
-                    "showToolbox": "false"
-                }
-            },
-            "wallpaperPlugin": "org.kde.image"
-        },
-        {
-            "applets": [
                 {
                     "config": {
                     },
-                    "geometry.height": 5,
-                    "geometry.width": 6,
-                    "geometry.x": 79,
-                    "geometry.y": 40,
+                    "geometry.height": 0,
+                    "geometry.width": 0,
+                    "geometry.x": 0,
+                    "geometry.y": 0,
                     "plugin": "org.kde.plasma.trash",
-                    "title": "Trashcan"
+                    "title": "Trash"
                 }
             ],
             "config": {
                 "/": {
+                    "ItemGeometries-1920x1200": "Applet-58:1776,1040,96,96,0;",
+                    "ItemGeometriesHorizontal": "Applet-58:1776,1040,96,96,0;",
                     "formfactor": "0",
                     "immutability": "1",
                     "lastScreen": "0",
@@ -128,22 +26,17 @@ var layout = {
                 },
                 "/ConfigDialog": {
                     "DialogHeight": "540",
-                    "DialogWidth": "720"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
+                    "DialogWidth": "630"
                 },
                 "/General": {
-                    "positions": "4,13,desktop:/org.kde.kmail2.desktop,3,12,desktop:/firefox.desktop,2,12,desktop:/org.kde.kinfocenter.desktop,1,12",
-                    "showToolbox": "false",
-                    "sortMode": "-1"
+                    "ToolBoxButtonState": "topleft",
+                    "showToolbox": "false"
                 },
                 "/Wallpaper/org.kde.color/General": {
-                    "Color": "156,156,206"
+                    "Color": "99,97,159"
                 },
                 "/Wallpaper/org.kde.potd/General": {
-                    "FillMode": "2",
-                    "Provider": "bing"
+                    "Provider": "flickr"
                 }
             },
             "wallpaperPlugin": "org.kde.color"
@@ -151,21 +44,18 @@ var layout = {
     ],
     "panels": [
         {
-            "alignment": "left",
+            "alignment": "center",
             "applets": [
                 {
                     "config": {
                         "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
                             "PreloadWeight": "100"
                         },
-                        "/Configuration/ConfigDialog": {
+                        "/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
                         },
-                        "/Configuration/General": {
+                        "/General": {
                             "customButtonImage": "kde",
                             "favoritesPortedToKAstats": "true",
                             "hiddenApplications": "Grand Theft Auto 2.desktop",
@@ -184,6 +74,10 @@ var layout = {
                     "config": {
                         "/": {
                             "immutability": "1"
+                        },
+                        "/ConfigDialog": {
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         }
                     },
                     "plugin": "org.kde.plasma.appmenu"
@@ -193,7 +87,7 @@ var layout = {
                         "/": {
                             "immutability": "1"
                         },
-                        "/Configuration/General": {
+                        "/General": {
                             "length": "1652"
                         }
                     },
@@ -202,16 +96,13 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
                             "PreloadWeight": "100"
                         },
-                        "/Configuration/Appearance": {
+                        "/Appearance": {
                             "boldText": "true",
                             "pin": "true"
                         },
-                        "/Configuration/ConfigDialog": {
+                        "/ConfigDialog": {
                             "DialogHeight": "505",
                             "DialogWidth": "488"
                         }
@@ -220,12 +111,6 @@ var layout = {
                 },
                 {
                     "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "100"
-                        }
                     },
                     "plugin": "org.kde.plasma.systemtray"
                 }
@@ -240,176 +125,14 @@ var layout = {
                 "/ConfigDialog": {
                     "DialogHeight": "68",
                     "DialogWidth": "1920"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
                 }
             },
-            "height": 1.5,
+            "height": 1.6875,
             "hiding": "normal",
             "location": "top",
-            "maximumLength": 85.375,
-            "minimumLength": 85.375,
+            "maximumLength": 96,
+            "minimumLength": 96,
             "offset": 0
-        },
-        {
-            "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "0"
-                        },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "615",
-                            "DialogWidth": "476"
-                        },
-                        "/Configuration/General": {
-                            "showOnlyCurrentDesktop": "true",
-                            "showOnlyCurrentScreen": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.taskmanager"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "2",
-                    "immutability": "1",
-                    "lastScreen": "2",
-                    "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "75",
-                    "DialogWidth": "1920"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
-                }
-            },
-            "height": 4,
-            "location": "bottom"
-        },
-        {
-            "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "0"
-                        },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "618",
-                            "DialogWidth": "514"
-                        },
-                        "/Configuration/General": {
-                            "showOnlyCurrentDesktop": "true",
-                            "showOnlyCurrentScreen": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.taskmanager"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "2",
-                    "immutability": "1",
-                    "lastScreen": "1",
-                    "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "75",
-                    "DialogWidth": "1920"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
-                }
-            },
-            "height": 4,
-            "location": "bottom"
-        },
-        {
-            "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "0"
-                        },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "650",
-                            "DialogWidth": "640"
-                        },
-                        "/Configuration/General": {
-                            "showOnlyCurrentDesktop": "true",
-                            "showOnlyCurrentScreen": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.taskmanager"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "2",
-                    "immutability": "1",
-                    "lastScreen": "3",
-                    "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "82",
-                    "DialogWidth": "1920"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "0"
-                }
-            },
-            "height": 4,
-            "location": "bottom"
-        },
-        {
-            "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "2"
-                        },
-                        "/Configuration/ConfigDialog": {
-                            "DialogHeight": "480",
-                            "DialogWidth": "640"
-                        },
-                        "/Configuration/General": {
-                            "showOnlyCurrentScreen": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.taskmanager"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "2",
-                    "immutability": "1",
-                    "lastScreen": "5",
-                    "wallpaperplugin": "org.kde.image"
-                },
-                "/ConfigDialog": {
-                    "DialogHeight": "82",
-                    "DialogWidth": "1280"
-                },
-                "/Configuration": {
-                    "PreloadWeight": "2"
-                }
-            },
-            "height": 4,
-            "location": "bottom"
         },
         {
             "alignment": "left",
@@ -418,6 +141,10 @@ var layout = {
                     "config": {
                         "/": {
                             "immutability": "1"
+                        },
+                        "/ConfigDialog": {
+                            "DialogHeight": "630",
+                            "DialogWidth": "810"
                         }
                     },
                     "plugin": "org.kde.plasma.pager"
@@ -427,11 +154,11 @@ var layout = {
                         "/": {
                             "immutability": "1"
                         },
-                        "/Configuration/ConfigDialog": {
+                        "/ConfigDialog": {
                             "DialogHeight": "480",
                             "DialogWidth": "640"
                         },
-                        "/Configuration/General": {
+                        "/General": {
                             "groupingAppIdBlacklist": "org.kde.dolphin.desktop",
                             "groupingLauncherUrlBlacklist": "applications:org.kde.dolphin.desktop"
                         }
@@ -451,11 +178,11 @@ var layout = {
                     "DialogWidth": "1366"
                 }
             },
-            "height": 1.875,
-            "hiding": "windowscover",
+            "height": 2.0625,
+            "hiding": "normal",
             "location": "bottom",
-            "maximumLength": 85.375,
-            "minimumLength": 5.25,
+            "maximumLength": 96,
+            "minimumLength": 5.875,
             "offset": 0
         }
     ],
