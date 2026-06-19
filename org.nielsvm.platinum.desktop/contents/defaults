@@ -5,7 +5,7 @@ cursorTheme=retrosmart-xcursor-black
 ColorScheme=QPlatinum3
 
 [kdeglobals][Icons]
-Theme=SevenIcons
+Theme=nineicons-redux-v0.6
 
 [kdeglobals][KDE]
 widgetStyle=kvantum

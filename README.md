@@ -8,7 +8,7 @@ Retro platinum-inspired look and feel package for KDE Plasma.
 This package automatically pulls in these dependencies upon installation:
 
 * https://store.kde.org/p/1319936
-* https://store.kde.org/p/1852495
+* https://store.kde.org/p/1960539
 * https://store.kde.org/p/1287747
 * https://store.kde.org/p/1731975/
 * https://store.kde.org/p/1290398/

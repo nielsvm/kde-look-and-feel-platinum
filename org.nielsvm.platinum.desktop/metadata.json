@@ -18,7 +18,7 @@
     "X-Plasma-MainScript": "default",
     "X-KPackage-Dependencies": [
       "kns://aurorae.knsrc/api.kde-look.org/1319936",
-      "kns://icons.knsrc/api.kde-look.org/1852495",
+      "kns://icons.knsrc/api.kde-look.org/1960539",
       "kns://colorschemes.knsrc/api.kde-look.org/1287747",
       "kns://plasma-themes.knsrc/api.kde-look.org/1731975",
       "kns://xcursor.knsrc/api.kde-look.org/1290398"

@@ -10,4 +10,4 @@ X-KDE-PluginInfo-Name=org.nielsvm.platinum.desktop
 X-KDE-PluginInfo-Version=0.3
 X-KDE-PluginInfo-Website=https://github.com/nielsvm/kde-look-and-feel-platinum
 X-KDE-ServiceTypes=Plasma/LookAndFeel
-X-KPackage-Dependencies=kns://aurorae.knsrc/api.kde-look.org/1319936,kns://icons.knsrc/api.kde-look.org/1852495,kns://colorschemes.knsrc/api.kde-look.org/1287747,kns://plasma-themes.knsrc/api.kde-look.org/1731975,kns://xcursor.knsrc/api.kde-look.org/1290398
+X-KPackage-Dependencies=kns://aurorae.knsrc/api.kde-look.org/1319936,kns://icons.knsrc/api.kde-look.org/1960539,kns://colorschemes.knsrc/api.kde-look.org/1287747,kns://plasma-themes.knsrc/api.kde-look.org/1731975,kns://xcursor.knsrc/api.kde-look.org/1290398
